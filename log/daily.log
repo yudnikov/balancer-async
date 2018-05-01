@@ -1,0 +1,24 @@
+19:31:40.306 [main] INFO  ru.yudnikov.balancer.Daemon$ - service is online at http://127.0.0.1:8080
+19:31:47.358 [default-akka.actor.default-dispatcher-7] DEBUG ru.yudnikov.balancer.Daemon$ - received GET http://127.0.0.1:8080/balance?throughput=3 request
+19:31:50.093 [default-akka.actor.default-dispatcher-7] DEBUG ru.yudnikov.balancer.Daemon$ - received GET http://127.0.0.1:8080/balance?throughput=3 request
+19:31:51.915 [default-akka.actor.default-dispatcher-3] DEBUG ru.yudnikov.balancer.Daemon$ - received GET http://127.0.0.1:8080/balance?throughput=3 request
+19:32:14.324 [default-akka.actor.default-dispatcher-4] DEBUG ru.yudnikov.balancer.Daemon$ - received GET http://localhost:8080/end request
+19:33:52.055 [main] INFO  ru.yudnikov.balancer.Daemon$ - service is online at http://127.0.0.1:8080
+19:33:57.349 [default-akka.actor.default-dispatcher-2] DEBUG ru.yudnikov.balancer.Daemon$ - received GET http://127.0.0.1:8080/balance?throughput=3 request
+19:33:58.253 [default-akka.actor.default-dispatcher-3] DEBUG ru.yudnikov.balancer.Daemon$ - received GET http://127.0.0.1:8080/balance?throughput=5 request
+19:34:06.465 [default-akka.actor.default-dispatcher-4] DEBUG ru.yudnikov.balancer.Daemon$ - received GET http://127.0.0.1:8080/balance?throughput=5 request
+19:34:14.206 [default-akka.actor.default-dispatcher-6] DEBUG ru.yudnikov.balancer.Daemon$ - received GET http://localhost:8080/end request
+19:34:20.670 [default-akka.actor.default-dispatcher-6] DEBUG ru.yudnikov.balancer.Daemon$ - received GET http://127.0.0.1:8080/balance?throughput=5 request
+19:34:20.671 [scala-execution-context-global-20] DEBUG ru.yudnikov.balancer.State - We need more throughput, My Lord!
+19:34:54.055 [main] INFO  ru.yudnikov.balancer.Daemon$ - service is online at http://127.0.0.1:8080
+19:35:06.979 [default-akka.actor.default-dispatcher-2] DEBUG ru.yudnikov.balancer.Daemon$ - received GET http://127.0.0.1:8080/balance?throughput=5 request
+19:35:16.833 [default-akka.actor.default-dispatcher-2] DEBUG ru.yudnikov.balancer.Daemon$ - received GET http://127.0.0.1:8080/balance?throughput=5 request
+19:35:19.208 [default-akka.actor.default-dispatcher-3] DEBUG ru.yudnikov.balancer.Daemon$ - received GET http://127.0.0.1:8080/balance?throughput=5 request
+19:35:31.198 [default-akka.actor.default-dispatcher-6] DEBUG ru.yudnikov.balancer.Daemon$ - received GET http://localhost:8080/end request
+19:36:00.884 [default-akka.actor.default-dispatcher-4] DEBUG ru.yudnikov.balancer.Daemon$ - received GET http://127.0.0.1:8080/balance?throughput=9 request
+19:36:37.964 [default-akka.actor.default-dispatcher-6] DEBUG ru.yudnikov.balancer.Daemon$ - received GET http://localhost:8080/end request
+19:36:45.472 [default-akka.actor.default-dispatcher-7] DEBUG ru.yudnikov.balancer.Daemon$ - received GET http://127.0.0.1:8080/balance?throughput=5 request
+19:36:49.419 [default-akka.actor.default-dispatcher-7] DEBUG ru.yudnikov.balancer.Daemon$ - received GET http://127.0.0.1:8080/balance?throughput=5 request
+19:37:00.347 [default-akka.actor.default-dispatcher-7] DEBUG ru.yudnikov.balancer.Daemon$ - received GET http://127.0.0.1:8080/balance?throughput=6 request
+19:38:13.856 [main] INFO  ru.yudnikov.balancer.Daemon$ - service is online at http://127.0.0.1:8080
+19:38:20.626 [default-akka.actor.default-dispatcher-7] DEBUG ru.yudnikov.balancer.Daemon$ - state = State(List((192.168.0.5,1), (192.168.0.3,5), (192.168.0.4,10)),Map())
