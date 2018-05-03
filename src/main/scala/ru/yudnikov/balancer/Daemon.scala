@@ -26,7 +26,7 @@ object Daemon extends App
   implicit val materializer: ActorMaterializer = ActorMaterializer()
   implicit val executionContext: ExecutionContext = system.dispatcher
   implicit val formats: Formats = DefaultFormats
-  implicit val descOrd: Ordering[BigInt] = (x, y) => y compareTo x
+  implicit val descOrd: Ordering[Int] = (x, y) => y compareTo x
 
   val host = config.getString("app.host")
   val port = config.getInt("app.port")
@@ -78,8 +78,6 @@ object Daemon extends App
 
   logger.info(s"service is online at http://$host:$port")
   StdIn.readLine(s"press Enter to terminate...")
-
-  Try(takeSnapshot())
 
   system.terminate()
 
